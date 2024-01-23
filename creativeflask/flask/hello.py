@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def magic_color():
-    return render_template('magic_color.html')
+    return render_template('index.html')
 
 @app.route('/get_color')
 def get_color():
